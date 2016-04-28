@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B1A198078237A32E35FCFA /* libPods-QRScaneer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0789BAB0C529237063CA9D7 /* libPods-QRScaneer.a */; };
+		2337B3651C1D1C84007E250A /* call-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2337B3641C1D1C84007E250A /* call-button.jpg */; };
+		2337B3671C1D1D75007E250A /* call.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2337B3661C1D1D75007E250A /* call.jpg */; };
+		2337B3691C1D4A71007E250A /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2337B3681C1D4A71007E250A /* Background.png */; };
+		2337B36C1C1D51F6007E250A /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337B36B1C1D51F6007E250A /* SignupViewController.m */; };
+		2337B36F1C1D5605007E250A /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337B36E1C1D5605007E250A /* LogInViewController.m */; };
+		235708B11C16B277006CF187 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235708AD1C16B277006CF187 /* SplashViewController.m */; };
+		235708B21C16B277006CF187 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235708AE1C16B277006CF187 /* SplashViewController.xib */; };
+		235708B31C16B277006CF187 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235708B01C16B277006CF187 /* TouchViewController.m */; };
+		2357094C1C18A6D8006CF187 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357094B1C18A6D8006CF187 /* DetailViewController.m */; };
+		23F77C431C1DBDE4000DB875 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F77C421C1DBDE4000DB875 /* HomeViewController.m */; };
+		23F77C451C1DBFB2000DB875 /* Logo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 23F77C441C1DBFB2000DB875 /* Logo.JPG */; };
+		23FC55B31C114A5100BC25F5 /* BarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC55B21C114A5100BC25F5 /* BarCodeViewController.m */; };
+		23FC55BD1C11628600BC25F5 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC55BC1C11628600BC25F5 /* test.m */; };
+		23FC55C11C1166FF00BC25F5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FC55C01C1166FF00BC25F5 /* ParseUI.framework */; };
 		C305925E1C112B1100818429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C305925D1C112B1100818429 /* main.m */; };
 		C30592611C112B1100818429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C30592601C112B1100818429 /* AppDelegate.m */; };
 		C30592641C112B1100818429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30592631C112B1100818429 /* ViewController.m */; };
@@ -16,6 +31,23 @@
 		C305926F1C112B1100818429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C305926D1C112B1100818429 /* LaunchScreen.storyboard */; };
 		C305927A1C112B1100818429 /* QRScaneerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30592791C112B1100818429 /* QRScaneerTests.m */; };
 		C30592851C112B1100818429 /* QRScaneerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30592841C112B1100818429 /* QRScaneerUITests.m */; };
+		C30592931C11308A00818429 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592921C11308A00818429 /* MapKit.framework */; };
+		C30592991C1144EF00818429 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30592981C1144EF00818429 /* MapViewController.m */; };
+		C305929B1C11535700818429 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C305929A1C11535700818429 /* Bolts.framework */; };
+		C305929D1C11535C00818429 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C305929C1C11535C00818429 /* Parse.framework */; };
+		C305929F1C11538900818429 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C305929E1C11538900818429 /* AudioToolbox.framework */; };
+		C30592A11C11539400818429 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592A01C11539400818429 /* CFNetwork.framework */; };
+		C30592A31C11539D00818429 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592A21C11539D00818429 /* CoreGraphics.framework */; };
+		C30592A51C1153A300818429 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592A41C1153A300818429 /* CoreLocation.framework */; };
+		C30592A71C1153AB00818429 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592A61C1153AB00818429 /* QuartzCore.framework */; };
+		C30592A91C1153B200818429 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592A81C1153B200818429 /* Security.framework */; };
+		C30592AB1C1153B800818429 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592AA1C1153B800818429 /* StoreKit.framework */; };
+		C30592AD1C1153BF00818429 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592AC1C1153BF00818429 /* SystemConfiguration.framework */; };
+		C30592AF1C1153CA00818429 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592AE1C1153CA00818429 /* libz.tbd */; };
+		C30592B11C1153DA00818429 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592B01C1153DA00818429 /* libsqlite3.tbd */; };
+		C30592B31C1153E300818429 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592B21C1153E300818429 /* Accounts.framework */; };
+		C30592B51C1153F000818429 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30592B41C1153F000818429 /* Social.framework */; };
+		C3A7E3011C1BB20100FD1688 /* CheckOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7E3001C1BB20100FD1688 /* CheckOutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +68,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2337B3641C1D1C84007E250A /* call-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "call-button.jpg"; sourceTree = "<group>"; };
+		2337B3661C1D1D75007E250A /* call.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = call.jpg; sourceTree = "<group>"; };
+		2337B3681C1D4A71007E250A /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		2337B36A1C1D51F6007E250A /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		2337B36B1C1D51F6007E250A /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		2337B36D1C1D5605007E250A /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		2337B36E1C1D5605007E250A /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		235708AC1C16B277006CF187 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		235708AD1C16B277006CF187 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		235708AE1C16B277006CF187 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		235708AF1C16B277006CF187 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		235708B01C16B277006CF187 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
+		2357094A1C18A6D8006CF187 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2357094B1C18A6D8006CF187 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		23F77C411C1DBDE4000DB875 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		23F77C421C1DBDE4000DB875 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		23F77C441C1DBFB2000DB875 /* Logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.JPG; sourceTree = "<group>"; };
+		23FC55B21C114A5100BC25F5 /* BarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarCodeViewController.m; sourceTree = "<group>"; };
+		23FC55B41C114A7400BC25F5 /* BarCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarCodeViewController.h; sourceTree = "<group>"; };
+		23FC55BB1C11627E00BC25F5 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		23FC55BC1C11628600BC25F5 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		23FC55C01C1166FF00BC25F5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		C0789BAB0C529237063CA9D7 /* libPods-QRScaneer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRScaneer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30592591C112B1100818429 /* QRScaneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScaneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C305925D1C112B1100818429 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C305925F1C112B1100818429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C30592601C112B1100818429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C30592601C112B1100818429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.fortran.f90; };
 		C30592621C112B1100818429 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C30592631C112B1100818429 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C30592661C112B1100818429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +108,27 @@
 		C30592801C112B1100818429 /* QRScaneerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScaneerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30592841C112B1100818429 /* QRScaneerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRScaneerUITests.m; sourceTree = "<group>"; };
 		C30592861C112B1100818429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30592921C11308A00818429 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C30592971C1144EF00818429 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		C30592981C1144EF00818429 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		C305929A1C11535700818429 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C305929C1C11535C00818429 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C305929E1C11538900818429 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C30592A01C11539400818429 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C30592A21C11539D00818429 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C30592A41C1153A300818429 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C30592A61C1153AB00818429 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C30592A81C1153B200818429 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C30592AA1C1153B800818429 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C30592AC1C1153BF00818429 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C30592AE1C1153CA00818429 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C30592B01C1153DA00818429 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C30592B21C1153E300818429 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C30592B41C1153F000818429 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C3A7E2FF1C1BB20100FD1688 /* CheckOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutViewController.h; sourceTree = "<group>"; };
+		C3A7E3001C1BB20100FD1688 /* CheckOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutViewController.m; sourceTree = "<group>"; };
+		C8A14057129E6A6EB3EAF526 /* Pods-QRScaneer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScaneer.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRScaneer/Pods-QRScaneer.release.xcconfig"; sourceTree = "<group>"; };
+		FB03E5B2917E49218CC3D728 /* Pods-QRScaneer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScaneer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRScaneer/Pods-QRScaneer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +136,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30592B51C1153F000818429 /* Social.framework in Frameworks */,
+				C30592B31C1153E300818429 /* Accounts.framework in Frameworks */,
+				C30592B11C1153DA00818429 /* libsqlite3.tbd in Frameworks */,
+				C30592AF1C1153CA00818429 /* libz.tbd in Frameworks */,
+				C30592AD1C1153BF00818429 /* SystemConfiguration.framework in Frameworks */,
+				C30592AB1C1153B800818429 /* StoreKit.framework in Frameworks */,
+				23FC55C11C1166FF00BC25F5 /* ParseUI.framework in Frameworks */,
+				C30592A91C1153B200818429 /* Security.framework in Frameworks */,
+				C30592A71C1153AB00818429 /* QuartzCore.framework in Frameworks */,
+				C30592A51C1153A300818429 /* CoreLocation.framework in Frameworks */,
+				C30592A31C11539D00818429 /* CoreGraphics.framework in Frameworks */,
+				C30592A11C11539400818429 /* CFNetwork.framework in Frameworks */,
+				C305929F1C11538900818429 /* AudioToolbox.framework in Frameworks */,
+				C30592931C11308A00818429 /* MapKit.framework in Frameworks */,
+				C305929D1C11535C00818429 /* Parse.framework in Frameworks */,
+				C305929B1C11535700818429 /* Bolts.framework in Frameworks */,
+				14B1A198078237A32E35FCFA /* libPods-QRScaneer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +173,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1511FDC1B8F95FA814634431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB03E5B2917E49218CC3D728 /* Pods-QRScaneer.debug.xcconfig */,
+				C8A14057129E6A6EB3EAF526 /* Pods-QRScaneer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C30592501C112B1100818429 = {
 			isa = PBXGroup;
 			children = (
+				23FC55C01C1166FF00BC25F5 /* ParseUI.framework */,
+				C30592B41C1153F000818429 /* Social.framework */,
+				C30592B21C1153E300818429 /* Accounts.framework */,
+				C30592B01C1153DA00818429 /* libsqlite3.tbd */,
+				C30592AE1C1153CA00818429 /* libz.tbd */,
+				C30592AC1C1153BF00818429 /* SystemConfiguration.framework */,
+				C30592AA1C1153B800818429 /* StoreKit.framework */,
+				C30592A81C1153B200818429 /* Security.framework */,
+				C30592A61C1153AB00818429 /* QuartzCore.framework */,
+				C30592A41C1153A300818429 /* CoreLocation.framework */,
+				C30592A21C11539D00818429 /* CoreGraphics.framework */,
+				C30592A01C11539400818429 /* CFNetwork.framework */,
+				C305929E1C11538900818429 /* AudioToolbox.framework */,
+				C305929C1C11535C00818429 /* Parse.framework */,
+				C305929A1C11535700818429 /* Bolts.framework */,
+				C30592921C11308A00818429 /* MapKit.framework */,
 				C305925B1C112B1100818429 /* QRScaneer */,
 				C30592781C112B1100818429 /* QRScaneerTests */,
 				C30592831C112B1100818429 /* QRScaneerUITests */,
 				C305925A1C112B1100818429 /* Products */,
+				1511FDC1B8F95FA814634431 /* Pods */,
+				D945A8CD2FC44625DEB62719 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +223,36 @@
 		C305925B1C112B1100818429 /* QRScaneer */ = {
 			isa = PBXGroup;
 			children = (
+				2337B3681C1D4A71007E250A /* Background.png */,
+				2337B3661C1D1D75007E250A /* call.jpg */,
+				2337B3641C1D1C84007E250A /* call-button.jpg */,
+				23F77C441C1DBFB2000DB875 /* Logo.JPG */,
+				C3A7E2FF1C1BB20100FD1688 /* CheckOutViewController.h */,
+				C3A7E3001C1BB20100FD1688 /* CheckOutViewController.m */,
 				C305925F1C112B1100818429 /* AppDelegate.h */,
 				C30592601C112B1100818429 /* AppDelegate.m */,
+				235708AC1C16B277006CF187 /* SplashViewController.h */,
+				235708AD1C16B277006CF187 /* SplashViewController.m */,
+				235708AE1C16B277006CF187 /* SplashViewController.xib */,
+				235708AF1C16B277006CF187 /* TouchViewController.h */,
+				235708B01C16B277006CF187 /* TouchViewController.m */,
 				C30592621C112B1100818429 /* ViewController.h */,
 				C30592631C112B1100818429 /* ViewController.m */,
+				2357094A1C18A6D8006CF187 /* DetailViewController.h */,
+				2357094B1C18A6D8006CF187 /* DetailViewController.m */,
+				C30592971C1144EF00818429 /* MapViewController.h */,
+				C30592981C1144EF00818429 /* MapViewController.m */,
+				2337B36D1C1D5605007E250A /* LogInViewController.h */,
+				2337B36E1C1D5605007E250A /* LogInViewController.m */,
+				2337B36A1C1D51F6007E250A /* SignupViewController.h */,
+				2337B36B1C1D51F6007E250A /* SignupViewController.m */,
 				C30592651C112B1100818429 /* Main.storyboard */,
+				23FC55BC1C11628600BC25F5 /* test.m */,
+				23FC55BB1C11627E00BC25F5 /* test.h */,
+				23F77C411C1DBDE4000DB875 /* HomeViewController.h */,
+				23F77C421C1DBDE4000DB875 /* HomeViewController.m */,
+				23FC55B21C114A5100BC25F5 /* BarCodeViewController.m */,
+				23FC55B41C114A7400BC25F5 /* BarCodeViewController.h */,
 				C305926B1C112B1100818429 /* Assets.xcassets */,
 				C305926D1C112B1100818429 /* LaunchScreen.storyboard */,
 				C30592701C112B1100818429 /* Info.plist */,
@@ -143,6 +288,14 @@
 			path = QRScaneerUITests;
 			sourceTree = "<group>";
 		};
+		D945A8CD2FC44625DEB62719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0789BAB0C529237063CA9D7 /* libPods-QRScaneer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C30592891C112B1100818429 /* Build configuration list for PBXNativeTarget "QRScaneer" */;
 			buildPhases = (
+				4142F9C16438C874B5E54172 /* Check Pods Manifest.lock */,
 				C30592551C112B1100818429 /* Sources */,
 				C30592561C112B1100818429 /* Frameworks */,
 				C30592571C112B1100818429 /* Resources */,
+				5DCFDD24BFC16A4895678B63 /* Embed Pods Frameworks */,
+				64DEA2D3968EA5A46B5B0F88 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +366,7 @@
 				TargetAttributes = {
 					C30592581C112B1100818429 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 226MJ55BBW;
 					};
 					C30592741C112B1100818429 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -246,9 +403,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F77C451C1DBFB2000DB875 /* Logo.JPG in Resources */,
 				C305926F1C112B1100818429 /* LaunchScreen.storyboard in Resources */,
+				2337B3671C1D1D75007E250A /* call.jpg in Resources */,
 				C305926C1C112B1100818429 /* Assets.xcassets in Resources */,
+				2337B3691C1D4A71007E250A /* Background.png in Resources */,
 				C30592671C112B1100818429 /* Main.storyboard in Resources */,
+				235708B21C16B277006CF187 /* SplashViewController.xib in Resources */,
+				2337B3651C1D1C84007E250A /* call-button.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +430,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4142F9C16438C874B5E54172 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCFDD24BFC16A4895678B63 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRScaneer/Pods-QRScaneer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64DEA2D3968EA5A46B5B0F88 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRScaneer/Pods-QRScaneer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C30592551C112B1100818429 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A7E3011C1BB20100FD1688 /* CheckOutViewController.m in Sources */,
+				235708B31C16B277006CF187 /* TouchViewController.m in Sources */,
 				C30592641C112B1100818429 /* ViewController.m in Sources */,
+				23FC55BD1C11628600BC25F5 /* test.m in Sources */,
+				23FC55B31C114A5100BC25F5 /* BarCodeViewController.m in Sources */,
+				23F77C431C1DBDE4000DB875 /* HomeViewController.m in Sources */,
+				235708B11C16B277006CF187 /* SplashViewController.m in Sources */,
+				2337B36F1C1D5605007E250A /* LogInViewController.m in Sources */,
+				2337B36C1C1D51F6007E250A /* SignupViewController.m in Sources */,
+				2357094C1C18A6D8006CF187 /* DetailViewController.m in Sources */,
 				C30592611C112B1100818429 /* AppDelegate.m in Sources */,
+				C30592991C1144EF00818429 /* MapViewController.m in Sources */,
 				C305926A1C112B1100818429 /* QRScaneer.xcdatamodeld in Sources */,
 				C305925E1C112B1100818429 /* main.m in Sources */,
 			);
@@ -415,23 +635,39 @@
 		};
 		C305928A1C112B1100818429 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB03E5B2917E49218CC3D728 /* Pods-QRScaneer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = QRScaneer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = h.QRScaneer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		C305928B1C112B1100818429 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A14057129E6A6EB3EAF526 /* Pods-QRScaneer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = QRScaneer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = h.QRScaneer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +738,7 @@
 				C305928B1C112B1100818429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C305928C1C112B1100818429 /* Build configuration list for PBXNativeTarget "QRScaneerTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +747,7 @@
 				C305928E1C112B1100818429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C305928F1C112B1100818429 /* Build configuration list for PBXNativeTarget "QRScaneerUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +756,7 @@
 				C30592911C112B1100818429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

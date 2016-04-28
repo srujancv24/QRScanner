@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <Parse/Parse.h>
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) NSString  *phno;
+@property (strong, nonatomic) NSString  *address;
 
 
 @end
